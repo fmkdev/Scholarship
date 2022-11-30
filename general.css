@@ -1,0 +1,108 @@
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1.2rem 2.4rem;
+  margin: 0 1.6rem;
+  border-radius: 100px;
+  color: white;
+  background-color: rgb(64, 184, 64);
+
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  /* Put transition on original "state" */
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
+}
+.btn:hover,
+.btn:active {
+  color: #333;
+  background-color: rgb(232, 220, 220);
+}
+
+.icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  font-weight: 600;
+}
+.grid {
+  display: grid;
+  column-gap: 3.2rem;
+}
+.grid--3-col {
+  grid-template-columns: 1fr 3fr 2fr;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+/* CARD */
+.card {
+  border-radius: 5px;
+  box-shadow: 0 0 5px 1px gray;
+  margin: 2.4rem;
+  padding: 0.8rem;
+}
+/* TABLE */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+} */
+
+th,
+td {
+  padding: 20px;
+}
+
+th {
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+/* tbody tr:nth-child(1) {
+  background-color: rgb(64, 184, 64);
+} */
+
+tbody tr:nth-child(even) {
+  background-color: #afd2b8;
+}

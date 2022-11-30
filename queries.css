@@ -1,0 +1,64 @@
+@media (max-width: 100rem) {
+  .body-status span {
+    background-color: transparent;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+}
+@media (max-width: 95rem) {
+  .header {
+    padding: 0;
+  }
+  .name {
+    font-size: 1.8rem;
+  }
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.2rem;
+  }
+  th {
+    font-size: 0.8rem;
+    font-weight: 900;
+  }
+}
+@media (max-width: 75rem) {
+  .header {
+    margin-bottom: 5rem;
+    border-bottom: 1px solid black;
+  }
+  .discription {
+    position: absolute;
+    top: 100px;
+    left: 40vw;
+  }
+  .logo-content {
+    margin-left: 2vw;
+  }
+  .main-nav {
+    margin-right: 2vw;
+  }
+  .grid--3-col {
+    grid-template-columns: none;
+  }
+  .querie-size {
+    width: 50vw;
+    justify-self: center;
+    align-self: baseline;
+  }
+  .user-details {
+    justify-self: center;
+  }
+}
+@media (max-width: 53rem) {
+  .name {
+    font-size: 1.4rem;
+  }
+  .btn {
+    padding: 0.8rem 1.2rem;
+    font-size: 0.8;
+  }
+}
