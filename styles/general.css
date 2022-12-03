@@ -45,6 +45,10 @@ a:visited {
   text-decoration: none;
 }
 
+/* ACTIVE CLASS */
+.active {
+  color: rgb(64, 184, 64);
+}
 /* CARD */
 .card {
   border-radius: 5px;
@@ -89,6 +93,7 @@ th {
 
 td {
   letter-spacing: 1px;
+  font-size: 1rem;
 }
 
 tbody td {
