@@ -123,12 +123,10 @@ body {
   gap: 0.5rem;
   font-weight: 500;
 }
-.list-items > .icon {
-  position: absolute;
+.list-items a > .icon {
   right: -2.8rem;
-  height: 1.2rem;
-  width: 1.2rem;
-  font-weight: 700;
+  height: 3.2rem;
+  font-weight: 900;
 }
 
 .list-items:hover,
@@ -161,14 +159,6 @@ body {
   font-weight: 600;
   font-size: 1.4rem;
   margin: 1.2rem 0;
-}
-.body-status span {
-  background-color: rgb(64, 184, 64);
-  display: flex;
-  justify-content: center;
-  padding: 1.2rem 1.8rem;
-  border-radius: 100px;
-  text-align: center;
 }
 
 /* PERSONAL INFORMATION */

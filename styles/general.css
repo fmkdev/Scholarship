@@ -30,7 +30,7 @@
 .icon {
   height: 2.4rem;
   width: 2.4rem;
-  font-weight: 600;
+  font-weight: 900;
 }
 .grid {
   display: grid;
@@ -43,6 +43,7 @@
 a:link,
 a:visited {
   text-decoration: none;
+  font-weight: 900;
 }
 
 /* ACTIVE CLASS */
@@ -82,18 +83,21 @@ thead th:nth-child(4) {
 
 th,
 td {
-  padding: 20px;
+  padding: 10px;
 }
 
 th {
   letter-spacing: 2px;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 td {
   letter-spacing: 1px;
-  font-size: 1rem;
+  font-size: 1.2rem;
+}
+.body-status > span {
+  font-size: 1.2rem;
 }
 
 tbody td {
