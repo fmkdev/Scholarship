@@ -114,4 +114,5 @@ tfoot th {
 
 tbody tr:nth-child(even) {
   background-color: #afd2b8;
+  margin-bottom: 5px;
 }
